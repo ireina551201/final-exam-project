@@ -47,7 +47,7 @@ if __name__ == '__main__':
             cursor.execute('INSERT INTO quotes (text ,author ,tags) VALUES (? ,? ,?)' ,(text ,author ,tags))
             conn.commit()
         
-        print(f' 第{n}頁: ok')
+        print(f'第{n}頁: ok')
         
         # 下一頁
         if(n<5):

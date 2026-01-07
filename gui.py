@@ -85,6 +85,8 @@ def get_success(data):
     re_btn.config(state=tk.NORMAL)
 
     # UI介面調整
+    update_btn.config(state=tk.DISABLED)
+    delete_btn.config(state=tk.DISABLED)
     tree.see('1')
     text.delete(1.0 ,'end')
     var_author.set('')
